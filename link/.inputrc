@@ -1,4 +1,4 @@
-set editing-mode vi
+set editing-mode emacs
 
 # COMMAND MODE
 set keymap vi-command
