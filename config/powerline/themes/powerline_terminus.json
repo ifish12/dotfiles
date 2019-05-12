@@ -37,9 +37,6 @@
       }
     },
 
-    "time": {
-      "before": "⌚ "
-    },
     "external_ip": {
       "args": {
         "query_url": "http://ipecho.net/plain"
@@ -57,14 +54,6 @@
         "only_if_ssh": false
       },
       "before": " "
-    },
-    "powerline.segments.common.bat.battery": {
-      "args": {
-        "full_heart": "♥",
-        "empty_heart": "♥",
-        "online": "⚡︎",
-        "offline": "🔋"
-      }
     },
     "powerline.segments.common.sys.uptime": {
       "before": "⇑ "
@@ -91,11 +80,6 @@
           "not_available": "� ",
           "unknown":       "⚠ "
         }
-      }
-    },
-    "powerline.segments.common.time.fuzzy_time": {
-      "args": {
-        "unicode_text": true
       }
     },
 
